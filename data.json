@@ -1,0 +1,1384 @@
+{
+  "assets": {
+    "fliplet-runtime": {
+      "category": "first-party",
+      "minify": true,
+      "preloaded": true,
+      "versions": {
+        "1.0": [
+          "fliplet-runtime.bundle.js"
+        ]
+      },
+      "hash": "53ad0c",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "latestVersion": "1.0"
+    },
+    "fliplet-core": {
+      "category": "first-party",
+      "dependencies": [
+        "jquery",
+        "modernizr"
+      ],
+      "minify": true,
+      "preloaded": true,
+      "versions": {
+        "1.0": [
+          "fliplet-core.bundle.css",
+          "fliplet-core.bundle.js"
+        ]
+      },
+      "hash": "e1cbd2",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "latestVersion": "1.0"
+    },
+    "fliplet-pages": {
+      "category": "first-party",
+      "dependencies": [
+        "fliplet-core",
+        "fliplet-session",
+        "fliplet-socket",
+        "handlebars",
+        "moment",
+        "animate-css",
+        "lodash",
+        "hammer.js",
+        "clipboardjs",
+        "photoswipe",
+        "fliplet-media"
+      ],
+      "preloaded": true,
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-pages.bundle.css",
+          "fliplet-pages.bundle.js"
+        ]
+      },
+      "hash": "43bab4",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "latestVersion": "1.0"
+    },
+    "fliplet-like": {
+      "category": "first-party",
+      "description": "Helper to display a like button that saves the result into a data source.",
+      "reference": "https://developers.fliplet.com/API/like-buttons.html",
+      "dependencies": [
+        "fliplet-core",
+        "handlebars",
+        "fliplet-datasources",
+        "fliplet-content"
+      ],
+      "minify": true,
+      "versions": {
+        "0.1": [
+          "fliplet-like.bundle.js"
+        ],
+        "0.2": [
+          "fliplet-like.bundle.js"
+        ]
+      },
+      "hash": "0ad8c8",
+      "updatedAt": "2023-07-13T09:09:02.648Z",
+      "preloaded": false,
+      "latestVersion": "0.2"
+    },
+    "fliplet-content": {
+      "category": "first-party",
+      "description": "Helper to create and manage content via data sources.",
+      "reference": "https://developers.fliplet.com/API/fliplet-content.html",
+      "dependencies": [
+        "fliplet-core",
+        "fliplet-datasources"
+      ],
+      "minify": true,
+      "versions": {
+        "0.1": [
+          "fliplet-content.bundle.js"
+        ]
+      },
+      "hash": "e9c287",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "0.1"
+    },
+    "fliplet-chat": {
+      "category": "first-party",
+      "description": "Easily configure chats for your app.",
+      "reference": "https://developers.fliplet.com/API/components/chat.html",
+      "dependencies": [
+        "fliplet-datasources"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-chat.bundle.js"
+        ]
+      },
+      "hash": "eed9e6",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-chart": {
+      "category": "first-party",
+      "description": "Manage global settings for Fliplet Charts",
+      "dependencies": [
+        "fliplet-core",
+        "highcharts"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-chart.bundle.js"
+        ]
+      },
+      "hash": "b31a14",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-gamify": {
+      "category": "first-party",
+      "description": "Easily configure gamification logic for your app.",
+      "reference": "https://developers.fliplet.com/API/fliplet-gamify.html",
+      "dependencies": [
+        "handlebars",
+        "lodash",
+        "fliplet-core",
+        "fliplet-datasources"
+      ],
+      "minify": true,
+      "versions": {
+        "0.1": [
+          "fliplet-gamify.bundle.js"
+        ]
+      },
+      "hash": "76dcae",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "0.1"
+    },
+    "fliplet-communicate": {
+      "category": "first-party",
+      "description": "Easily send email and text messages from your apps.",
+      "reference": "https://developers.fliplet.com/API/fliplet-communicate.html",
+      "dependencies": [
+        "handlebars",
+        "lodash",
+        "fliplet-core",
+        "jssocials"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-communicate.bundle.css",
+          "fliplet-communicate.bundle.js"
+        ]
+      },
+      "hash": "bc8164",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-datasources": {
+      "category": "first-party",
+      "description": "Integrate your app with Data Source functionalities to read and write new entries.",
+      "reference": "https://developers.fliplet.com/API/fliplet-datasources.html",
+      "dependencies": [
+        "fliplet-core",
+        "lodash"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-datasources.bundle.js"
+        ]
+      },
+      "hash": "754467",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-ui-datetime": {
+      "category": "first-party",
+      "description": "Add date and time pickers to your app that's optimized for all device types and localization.",
+      "dependencies": [
+        "fliplet-core",
+        "bootstrap-datepicker",
+        "moment"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-ui-datetime.bundle.js",
+          "fliplet-ui-datetime.bundle.css"
+        ]
+      },
+      "hash": "c81bdd",
+      "updatedAt": "2023-07-13T09:09:02.656Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-ui-number": {
+      "category": "first-party",
+      "description": "Add number inputs to your app that's optimized for all device types and localization.",
+      "dependencies": [
+        "fliplet-core"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-ui-number.bundle.js",
+          "fliplet-ui-number.bundle.css"
+        ]
+      },
+      "hash": "caeacc",
+      "updatedAt": "2023-07-13T09:09:02.656Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-ui-rangeslider": {
+      "category": "first-party",
+      "description": "Add range sliders to your app that's optimized for all device types and localization.",
+      "dependencies": [
+        "fliplet-core",
+        "rangeslider"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-ui-rangeslider.bundle.css",
+          "fliplet-ui-rangeslider.bundle.js"
+        ]
+      },
+      "hash": "c8e355",
+      "updatedAt": "2023-07-13T09:09:02.656Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-native": {
+      "category": "first-party",
+      "dependencies": [
+        "fliplet-core",
+        "fliplet-datasources",
+        "lodash",
+        "animate-css",
+        "fliplet-pages"
+      ],
+      "preloaded": true,
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-native.bundle.css",
+          "fliplet-native.bundle.js"
+        ]
+      },
+      "hash": "cbfe99",
+      "updatedAt": "2023-07-13T09:09:02.648Z",
+      "latestVersion": "1.0"
+    },
+    "fliplet-notifications": {
+      "category": "first-party",
+      "description": "Display a notification inbox in your apps.",
+      "reference": "https://developers.fliplet.com/API/fliplet-notifications.html",
+      "dependencies": [
+        "lodash",
+        "fliplet-core"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-notifications.bundle.js"
+        ]
+      },
+      "hash": "aa54e5",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-interact": {
+      "category": "first-party",
+      "dependencies": [
+        "fliplet-core",
+        "font-awesome",
+        "tinymce",
+        "fliplet-icons"
+      ],
+      "preloaded": true,
+      "minify": true,
+      "versions": {
+        "3.0": [
+          "fliplet-interact.bundle.css",
+          "fliplet-interact.bundle.js"
+        ],
+        "2.0": [
+          "fliplet-interact.bundle.js",
+          "fliplet-interact.bundle.css"
+        ]
+      },
+      "hash": "06e217",
+      "updatedAt": "2023-07-13T09:09:02.648Z",
+      "latestVersion": "3.0"
+    },
+    "fliplet-media": {
+      "category": "first-party",
+      "description": "Upload media files and read media folders from your app.",
+      "reference": "https://developers.fliplet.com/API/fliplet-media.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-core"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-media.bundle.js"
+        ]
+      },
+      "hash": "0739fd",
+      "updatedAt": "2023-07-13T09:09:02.648Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-csv": {
+      "category": "first-party",
+      "description": "Generate and export CSV files.",
+      "reference": "https://developers.fliplet.com/API/fliplet-csv.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-core",
+        "lodash",
+        "papa-parse",
+        "fliplet-communicate",
+        "fliplet-media"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-csv.bundle.js"
+        ]
+      },
+      "hash": "49c122",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-studio-ui": {
+      "category": "first-party",
+      "description": "Include styles in your component to match the Fliplet Studio UI styles.",
+      "reference": "https://developers.fliplet.com/UI-guidelines-interface.html",
+      "preloaded": true,
+      "minify": true,
+      "dependencies": [
+        "bootstrap-css",
+        "font-awesome",
+        "jquery"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-studio-ui.bundle.js",
+          "fliplet-studio-ui.bundle.css"
+        ]
+      },
+      "hash": "64e57f",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "latestVersion": "1.0"
+    },
+    "fliplet-socket": {
+      "category": "first-party",
+      "minify": true,
+      "description": "Real-time bidirectional event-based communication",
+      "reference": "https://socket.io/",
+      "dependencies": [],
+      "versions": {
+        "1.0": [
+          "fliplet-socket.bundle.js"
+        ]
+      },
+      "hash": "df2710",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-encryption": {
+      "category": "first-party",
+      "description": "Encrypt the content of Data Sources to secure your data.",
+      "reference": "https://developers.fliplet.com/API/fliplet-encryption.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-datasources"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-encryption.bundle.js"
+        ]
+      },
+      "hash": "1dcbe3",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-security": {
+      "category": "first-party",
+      "description": "Quickly add an encrypted storage to secure your data.",
+      "minify": true,
+      "dependencies": [
+        "fliplet-core"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-security.bundle.js"
+        ]
+      },
+      "hash": "01971b",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-session": {
+      "category": "first-party",
+      "description": "Read and write data in the user's own private session.",
+      "reference": "https://developers.fliplet.com/API/fliplet-session.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-core"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-session.bundle.js"
+        ]
+      },
+      "hash": "5570d5",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-oauth2": {
+      "category": "first-party",
+      "description": "A clientside library for standardizing requests to OAuth2 web services.",
+      "reference": "https://developers.fliplet.com/API/fliplet-oauth2.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-core",
+        "lodash",
+        "fliplet-communicate"
+      ],
+      "versions": {
+        "0.1": [
+          "fliplet-oauth2.bundle.js"
+        ]
+      },
+      "hash": "b7e32e",
+      "updatedAt": "2023-07-13T09:09:02.652Z",
+      "preloaded": false,
+      "latestVersion": "0.1"
+    },
+    "fliplet-app-submissions": {
+      "category": "first-party",
+      "description": "Read your app metadata from App Store and Google Play submissions.",
+      "dependencies": [
+        "fliplet-core"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-app-submissions.bundle.js"
+        ]
+      },
+      "hash": "2c2b8b",
+      "updatedAt": "2023-07-13T09:09:02.640Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-themes": {
+      "category": "first-party",
+      "description": "Read your current theme settings as Javascript variables.",
+      "reference": "https://developers.fliplet.com/API/fliplet-themes.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-core",
+        "lodash"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-themes.bundle.js"
+        ]
+      },
+      "hash": "717472",
+      "updatedAt": "2023-07-13T09:09:02.656Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-audio": {
+      "category": "first-party",
+      "description": "Play audio files in your app from local and remote files.",
+      "reference": "https://developers.fliplet.com/API/fliplet-audio.html",
+      "minify": true,
+      "dependencies": [
+        "fliplet-media"
+      ],
+      "versions": {
+        "1.0": [
+          "fliplet-audio.bundle.js"
+        ]
+      },
+      "hash": "3b8c4e",
+      "updatedAt": "2023-07-13T09:09:02.640Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-audio-player": {
+      "category": "first-party",
+      "description": "Display an audio player with full playback functionalities in your screens.",
+      "reference": "https://developers.fliplet.com/API/fliplet-audio-player.html",
+      "minify": true,
+      "dependencies": [
+        "handlebars",
+        "fliplet-audio",
+        "lodash"
+      ],
+      "versions": {
+        "0.1": [
+          "fliplet-audio-player.bundle.js",
+          "fliplet-audio-player.bundle.css"
+        ]
+      },
+      "hash": "85c212",
+      "updatedAt": "2023-07-13T09:09:02.640Z",
+      "preloaded": false,
+      "latestVersion": "0.1"
+    },
+    "fliplet-ravenjs": {
+      "category": "vendor",
+      "preloaded": true,
+      "dependencies": [
+        "ravenjs"
+      ],
+      "versions": {
+        "1.0": [
+          "install.js"
+        ]
+      },
+      "hash": "be5a44",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "1.0"
+    },
+    "fliplet-barcode": {
+      "category": "first-party",
+      "description": "Add barcode scanning functionalities to your apps.",
+      "reference": "https://developers.fliplet.com/API/fliplet-barcode.html",
+      "dependencies": [
+        "lodash",
+        "fliplet-communicate"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-barcode.bundle.js"
+        ]
+      },
+      "hash": "d97063",
+      "updatedAt": "2023-07-13T09:09:02.644Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-ui-panzoom": {
+      "category": "first-party",
+      "description": "Library to add Pan/Zoom capabilities to an element, as well as being able to place markers.",
+      "reference": "https://developers.fliplet.com/API/fliplet-ui-panzoom.html",
+      "dependencies": [
+        "lodash",
+        "hammer.js",
+        "font-awesome"
+      ],
+      "minify": true,
+      "versions": {
+        "1.0": [
+          "fliplet-ui-panzoom.bundle.css",
+          "fliplet-ui-panzoom.bundle.js"
+        ]
+      },
+      "hash": "d634f1",
+      "updatedAt": "2023-07-13T09:09:02.656Z",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-icons": {
+      "category": "first-party",
+      "description": "Fliplet own icon font.",
+      "reference": "https://fliplet.com/icons-demo-page/",
+      "versions": {
+        "1.0.0": [
+          "fl-icon-style.css",
+          "fonts/fl-icon.eot",
+          "fonts/fl-icon.svg",
+          "fonts/fl-icon.ttf",
+          "fonts/fl-icon.woff"
+        ]
+      },
+      "hash": "c3e51a",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.0.0"
+    },
+    "fliplet-helper": {
+      "category": "first-party",
+      "description": "Fliplet helpers",
+      "reference": "https://developers.fliplet.com/API/fliplet-helper.html",
+      "dependencies": [
+        "lodash",
+        "fliplet-core"
+      ],
+      "versions": {
+        "1.0": [
+          "helper.js",
+          "helper.css"
+        ]
+      },
+      "hash": "f9da38",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "fliplet-payments": {
+      "category": "first-party",
+      "description": "Fliplet payments",
+      "reference": "https://developers.fliplet.com/API/fliplet-payments.html",
+      "dependencies": [
+        "lodash",
+        "fliplet-core"
+      ],
+      "versions": {
+        "1.0": [
+          "payments.js"
+        ]
+      },
+      "hash": "122492",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "bootstrap": {
+      "category": "vendor",
+      "description": "Include the most popular CSS framework in your app.",
+      "reference": "https://getbootstrap.com/docs/3.3/components/",
+      "preloaded": true,
+      "dependencies": [
+        "jquery",
+        "bootstrap-css",
+        "bootstrap-js"
+      ],
+      "versions": {
+        "3.4.1": [],
+        "3.3.7": []
+      },
+      "hash": "e18451",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "3.4.1"
+    },
+    "bootstrap-css": {
+      "category": "vendor",
+      "description": "Include the CSS styles from the most popular framework in your app.",
+      "reference": "https://getbootstrap.com/docs/3.3/components/",
+      "preloaded": true,
+      "minify": true,
+      "dependencies": [
+        "font-awesome"
+      ],
+      "versions": {
+        "3.4.1": [
+          "fonts/glyphicons-halflings-regular.ttf",
+          "fonts/glyphicons-halflings-regular.woff",
+          "fonts/glyphicons-halflings-regular.woff2",
+          "bootstrap-css.bundle.css"
+        ],
+        "3.3.7": [
+          "fonts/glyphicons-halflings-regular.ttf",
+          "fonts/glyphicons-halflings-regular.woff",
+          "fonts/glyphicons-halflings-regular.woff2",
+          "bootstrap-css.bundle.css"
+        ]
+      },
+      "hash": "cd5c2d",
+      "updatedAt": "2023-07-13T09:09:02.612Z",
+      "latestVersion": "3.4.1"
+    },
+    "bootstrap-js": {
+      "category": "vendor",
+      "description": "Include the JavaScript code to make Bootstrap components work.",
+      "reference": "https://getbootstrap.com/docs/3.3/javascript/",
+      "minify": true,
+      "dependencies": [
+        "jquery",
+        "modernizr"
+      ],
+      "versions": {
+        "3.4.1": [
+          "bootstrap-js.bundle.js"
+        ],
+        "3.3.7": [
+          "bootstrap-js.bundle.js"
+        ]
+      },
+      "hash": "1be9c7",
+      "updatedAt": "2023-07-13T09:09:02.612Z",
+      "preloaded": false,
+      "latestVersion": "3.4.1"
+    },
+    "bootstrap-datepicker": {
+      "category": "vendor",
+      "description": "Include the Bootstrap DatePicker library to initialize a date picker.",
+      "reference": "https://bootstrap-datepicker.readthedocs.io/en/stable/",
+      "minify": true,
+      "dependencies": [
+        "jquery",
+        "bootstrap-css"
+      ],
+      "versions": {
+        "1.9.0": [
+          "bootstrap-datepicker.bundle.css",
+          "bootstrap-datepicker.bundle.js"
+        ]
+      },
+      "hash": "2b034b",
+      "updatedAt": "2023-07-13T09:09:02.612Z",
+      "preloaded": false,
+      "latestVersion": "1.9.0"
+    },
+    "jquery": {
+      "category": "vendor",
+      "description": "An easy-to-use cross-browser API for HTML document traversal and manipulation, event handling, animation, and Ajax.",
+      "reference": "https://api.jquery.com/",
+      "preloaded": true,
+      "versions": {
+        "3.6.0": [
+          "jquery.js"
+        ],
+        "3.4.1": [
+          "jquery.js"
+        ],
+        "3.0.0": [
+          "jquery.js"
+        ],
+        "2.2.4": [
+          "jquery-2.2.4.min.js"
+        ]
+      },
+      "hash": "0c8317",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "3.6.0"
+    },
+    "modernizr": {
+      "category": "vendor",
+      "description": "Modernizr tells you what HTML, CSS and JavaScript features the user’s browser has to offer.",
+      "reference": "https://modernizr.com/",
+      "dependencies": [],
+      "versions": {
+        "3.5.0": [
+          "modernizr-custom.js"
+        ]
+      },
+      "hash": "3e0040",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "3.5.0"
+    },
+    "tinymce": {
+      "category": "vendor",
+      "description": "Include the most advanced WYSIWYG HTML editor.",
+      "reference": "https://www.tiny.cloud/docs/",
+      "latestVersion": "4.8.1",
+      "dependencies": [
+        "jquery"
+      ],
+      "versions": {
+        "4.4.0": [
+          "tinymce.min.js",
+          "jquery.tinymce.min.js"
+        ],
+        "4.7.1": [
+          "tinymce.min.js",
+          "jquery.tinymce.min.js"
+        ],
+        "4.8.1": [
+          "skins/lightgray/fonts/tinymce-mobile.woff",
+          "skins/lightgray/fonts/tinymce-small.eot",
+          "skins/lightgray/fonts/tinymce-small.svg",
+          "skins/lightgray/fonts/tinymce-small.ttf",
+          "skins/lightgray/fonts/tinymce-small.woff",
+          "skins/lightgray/fonts/tinymce.eot",
+          "skins/lightgray/fonts/tinymce.svg",
+          "skins/lightgray/fonts/tinymce.ttf",
+          "skins/lightgray/fonts/tinymce.woff",
+          "skins/lightgray/skin.min.css",
+          "skins/lightgray/skin.mobile.min.css",
+          "skins/lightgray/content.mobile.min.css",
+          "tinymce-custom.css",
+          "tinymce.min.js",
+          "jquery.tinymce.min.js"
+        ],
+        "5.7.0": [
+          "skins/ui/oxide/fonts/tinymce-mobile.woff",
+          "skins/ui/oxide/skin.min.css",
+          "skins/ui/oxide/content.min.css",
+          "skins/ui/oxide/skin.mobile.min.css",
+          "skins/content/default/content.min.css",
+          "tinymce-custom.css",
+          "tinymce.min.js",
+          "jquery.tinymce.min.js"
+        ]
+      },
+      "hash": "103682",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false
+    },
+    "font-awesome": {
+      "category": "vendor",
+      "description": "Easily display vector icons and social logos in your app.",
+      "reference": "https://fontawesome.com/v4.7.0/icons/",
+      "versions": {
+        "4.7.0": [
+          "css/font-awesome.css",
+          "fonts/fontawesome-webfont.eot",
+          "fonts/fontawesome-webfont.svg",
+          "fonts/fontawesome-webfont.ttf",
+          "fonts/fontawesome-webfont.woff",
+          "fonts/fontawesome-webfont.woff2",
+          "fonts/FontAwesome.otf",
+          "js/font-awesome.js"
+        ],
+        "4.6.3": [
+          "font-awesome.css",
+          "fonts/fontawesome-webfont.eot",
+          "fonts/fontawesome-webfont.svg",
+          "fonts/fontawesome-webfont.ttf",
+          "fonts/fontawesome-webfont.woff",
+          "fonts/fontawesome-webfont.woff2"
+        ]
+      },
+      "hash": "01ab85",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "4.7.0"
+    },
+    "reset-css": {
+      "category": "vendor",
+      "description": "Reduce browser inconsistencies by resetting the stylesheet.",
+      "reference": "http://meyerweb.com/eric/tools/css/reset/",
+      "versions": {
+        "2.0": [
+          "reset.css"
+        ]
+      },
+      "hash": "eb7d1d",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "2.0"
+    },
+    "normalize-css": {
+      "category": "vendor",
+      "description": "Make browsers render all elements more consistently and in line with modern standards.",
+      "reference": "https://necolas.github.io/normalize.css/",
+      "versions": {
+        "4.1.1": [
+          "normalize.css"
+        ]
+      },
+      "hash": "32c009",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "4.1.1"
+    },
+    "jquery-ui": {
+      "dependencies": [
+        "jquery"
+      ],
+      "category": "vendor",
+      "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery.",
+      "reference": "http://jqueryui.com/",
+      "versions": {
+        "1.12.0": [
+          "jquery-ui.js"
+        ]
+      },
+      "hash": "a59234",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.12.0"
+    },
+    "moment": {
+      "category": "vendor",
+      "preloaded": true,
+      "description": "Parse, validate, manipulate, and display dates and times in JavaScript.",
+      "reference": "https://momentjs.com/docs/",
+      "versions": {
+        "2.15.2": [
+          "moment.min.js",
+          "moment-init.js"
+        ]
+      },
+      "hash": "f121ee",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "2.15.2"
+    },
+    "moment-timezone": {
+      "category": "vendor",
+      "preloaded": true,
+      "description": "Parse and display dates in any timezone.",
+      "reference": "https://momentjs.com/docs/",
+      "dependencies": [
+        "moment"
+      ],
+      "versions": {
+        "0.5.21": [
+          "moment-timezone.min.js"
+        ]
+      },
+      "hash": "145ba9",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "0.5.21"
+    },
+    "lodash": {
+      "category": "vendor",
+      "preloaded": true,
+      "description": "Make JavaScript easier by taking the hassle out of working with arrays, numbers, objects and strings.",
+      "reference": "https://lodash.com/docs/4.17.5",
+      "minify": true,
+      "versions": {
+        "4.17.15": [
+          "lodash.bundle.js"
+        ],
+        "4.17.4": [
+          "lodash.bundle.js"
+        ]
+      },
+      "hash": "12cc32",
+      "updatedAt": "2023-07-13T09:09:02.700Z",
+      "latestVersion": "4.17.4"
+    },
+    "lodash-joins": {
+      "category": "vendor",
+      "description": "Join algorithms for JavaScript Arrays using lodash.",
+      "reference": "https://github.com/mtraynham/lodash-joins",
+      "dependencies": [
+        "lodash"
+      ],
+      "versions": {
+        "3.0.0": [
+          "lodash-joins.min.js"
+        ]
+      },
+      "hash": "8a1ee3",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "3.0.0"
+    },
+    "datatables": {
+      "category": "vendor",
+      "description": "Add advanced interaction controls to your HTML tables the free & easy way.",
+      "reference": "https://datatables.net/manual/",
+      "dependencies": [
+        "jquery",
+        "bootstrap"
+      ],
+      "versions": {
+        "1.10.18": [
+          "datatables.min.css",
+          "datatables.min.js"
+        ]
+      },
+      "hash": "ded138",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.10.18"
+    },
+    "hammer.js": {
+      "category": "vendor",
+      "description": "Recognize gestures made by touch, mouse and pointerEvents in your app.",
+      "reference": "https://hammerjs.github.io/",
+      "minify": true,
+      "versions": {
+        "2.0.8": [
+          "hammer.js.bundle.js"
+        ]
+      },
+      "hash": "60329a",
+      "updatedAt": "2023-07-13T09:09:02.664Z",
+      "preloaded": false,
+      "latestVersion": "2.0.8"
+    },
+    "handlebars": {
+      "category": "vendor",
+      "description": "Build semantic HTML templates effectively with no frustration.",
+      "reference": "https://handlebarsjs.com/",
+      "dependencies": [
+        "lodash",
+        "moment"
+      ],
+      "minify": true,
+      "versions": {
+        "4.7.7": [
+          "handlebars.bundle.js"
+        ],
+        "4.0.10": [
+          "handlebars.bundle.js"
+        ]
+      },
+      "hash": "01b30e",
+      "updatedAt": "2023-07-13T09:09:02.664Z",
+      "preloaded": false,
+      "latestVersion": "4.7.7"
+    },
+    "highcharts": {
+      "category": "vendor",
+      "description": "Set up interactive charts in their apps.",
+      "reference": "https://www.highcharts.com/docs/getting-started/your-first-chart",
+      "minify": true,
+      "versions": {
+        "5.0.2": [
+          "highcharts.bundle.css",
+          "highcharts.bundle.js"
+        ],
+        "6.1.1": [
+          "highcharts.bundle.css",
+          "highcharts.bundle.js"
+        ]
+      },
+      "hash": "819813",
+      "updatedAt": "2023-07-13T09:09:02.696Z",
+      "preloaded": false,
+      "latestVersion": "6.1.1"
+    },
+    "pdfjs": {
+      "category": "vendor",
+      "preloaded": true,
+      "versions": {
+        "1.4.20": [
+          "web/viewer.html"
+        ]
+      },
+      "hash": "7533e5",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "1.4.20"
+    },
+    "animate-css": {
+      "category": "vendor",
+      "preloaded": true,
+      "description": "Easily add CSS animations to your app.",
+      "reference": "https://daneden.github.io/animate.css/",
+      "minify": true,
+      "versions": {
+        "3.5.2": [
+          "animate-css.bundle.css"
+        ]
+      },
+      "hash": "cc225b",
+      "updatedAt": "2023-07-13T09:09:02.608Z",
+      "latestVersion": "3.5.2"
+    },
+    "vue.js": {
+      "category": "vendor",
+      "description": "A modern progressive framework for building user interfaces.",
+      "reference": "https://vuejs.org/v2/guide/",
+      "versions": {
+        "2.6.14": [
+          "vue.min.js",
+          "vue.i18next.js"
+        ],
+        "2.2.4": [
+          "vue.min.js",
+          "vue.i18next.js"
+        ]
+      },
+      "hash": "abf486",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "2.6.14"
+    },
+    "vue-router": {
+      "category": "vendor",
+      "preloaded": true,
+      "versions": {
+        "2.2.1": [
+          "vue-router.js"
+        ]
+      },
+      "hash": "3a9c5c",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "2.2.1"
+    },
+    "vue-resource": {
+      "category": "vendor",
+      "preloaded": true,
+      "versions": {
+        "1.2.1": [
+          "vue-resource.min.js"
+        ]
+      },
+      "hash": "11a14b",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "1.2.1"
+    },
+    "clipboardjs": {
+      "category": "vendor",
+      "description": "A modern approach to copy text to clipboard",
+      "reference": "https://clipboardjs.com/",
+      "versions": {
+        "2.0.4": [
+          "clipboard.min.js"
+        ]
+      },
+      "hash": "8b5bf2",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "2.0.4"
+    },
+    "codemirror": {
+      "category": "vendor",
+      "description": "A JavaScript component that provides a code editor with auto-completion in your apps.",
+      "reference": "https://codemirror.net/doc/manual.html",
+      "versions": {
+        "5.17.0": [
+          "lib/codemirror.css",
+          "lib/codemirror.js",
+          "addon/mode/simple.js",
+          "addon/mode/multiplex.js",
+          "addon/display/autorefresh.js",
+          "addon/edit/matchbrackets.js",
+          "mode/htmlmixed/htmlmixed.js",
+          "mode/xml/xml.js",
+          "mode/handlebars/handlebars.js",
+          "mode/css/css.js",
+          "mode/javascript/javascript.js"
+        ]
+      },
+      "hash": "3c5001",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "5.17.0"
+    },
+    "object-hash": {
+      "category": "vendor",
+      "description": "Generate hashes from objects and values in node and the browser.",
+      "reference": "https://github.com/puleos/object-hash",
+      "versions": {
+        "1.3.0": [
+          "object-hash.js"
+        ]
+      },
+      "hash": "e4a73e",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.3.0"
+    },
+    "papa-parse": {
+      "category": "vendor",
+      "description": "The powerful, in-browser CSV parser for big boys and girls.",
+      "reference": "https://www.papaparse.com/",
+      "versions": {
+        "4.6.0": [
+          "papaparse.min.js"
+        ]
+      },
+      "hash": "8ab85f",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "4.6.0"
+    },
+    "photoswipe": {
+      "category": "vendor",
+      "description": "A modern and responsive image gallery.",
+      "reference": "http://photoswipe.com/",
+      "minify": true,
+      "versions": {
+        "4.1.1": [
+          "default-skin.png",
+          "default-skin.svg",
+          "preloader.gif",
+          "photoswipe.bundle.js",
+          "photoswipe.bundle.css"
+        ]
+      },
+      "hash": "c0d32c",
+      "updatedAt": "2023-07-13T09:09:02.720Z",
+      "preloaded": false,
+      "latestVersion": "4.1.1"
+    },
+    "list-swipe": {
+      "category": "first-party",
+      "description": "Add swipe functionalities to your lists.",
+      "minify": true,
+      "versions": {
+        "1.0.0": [
+          "list-swipe.bundle.css",
+          "list-swipe.bundle.js"
+        ]
+      },
+      "hash": "519d0f",
+      "updatedAt": "2023-07-13T09:09:02.700Z",
+      "preloaded": false,
+      "latestVersion": "1.0.0"
+    },
+    "fliplet-tokens": {
+      "category": "first-party",
+      "description": "Library to work with tokens.",
+      "dependencies": [
+        "fliplet-core"
+      ],
+      "versions": {
+        "1.0": [
+          "tokens.js"
+        ]
+      },
+      "hash": "90ff6a",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.0"
+    },
+    "mixitup": {
+      "category": "vendor",
+      "description": "A high-performance library for animated filtering, sorting, insertion, removal and more.",
+      "reference": "https://www.kunkalabs.com/mixitup/",
+      "minify": true,
+      "dependencies": [
+        "jquery"
+      ],
+      "latestVersion": "2.1.10",
+      "versions": {
+        "2.1.10": [
+          "mixitup.bundle.js"
+        ],
+        "3.3.0": [
+          "mixitup.bundle.js"
+        ]
+      },
+      "hash": "837b6d",
+      "updatedAt": "2023-07-13T09:09:02.700Z",
+      "preloaded": false
+    },
+    "crypto-js": {
+      "category": "vendor",
+      "description": "Integrate your Javascript code with crypto standards, like SHA512.",
+      "reference": "https://github.com/brix/crypto-js",
+      "minify": true,
+      "deprecated": true,
+      "deprecatedReason": "CryptoJS is now included with fliplet-core",
+      "versions": {
+        "3.1.9": [
+          "crypto-js.bundle.js"
+        ]
+      },
+      "hash": "7318ab",
+      "updatedAt": "2023-07-13T09:09:02.632Z",
+      "preloaded": false,
+      "latestVersion": "3.1.9"
+    },
+    "ravenjs": {
+      "category": "vendor",
+      "preloaded": true,
+      "versions": {
+        "3.11.0": [
+          "raven.min.js"
+        ]
+      },
+      "hash": "ba2fbd",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "latestVersion": "3.11.0"
+    },
+    "bootstrap-select": {
+      "category": "vendor",
+      "description": "Bring additional features to Boostrap's dropdowns.",
+      "reference": "https://developer.snapappointments.com/bootstrap-select/",
+      "dependencies": [
+        "jquery",
+        "bootstrap-css",
+        "bootstrap-js"
+      ],
+      "versions": {
+        "1.12.4": [
+          "bootstrap-select.min.css",
+          "bootstrap-select.min.js"
+        ]
+      },
+      "hash": "336ec4",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "1.12.4"
+    },
+    "handsontable": {
+      "category": "vendor",
+      "description": "A fully-featured Javascript spreadsheet component.",
+      "reference": "https://handsontable.com/docs/1.18.0/tutorial-introduction.html",
+      "dependencies": [
+        "jquery",
+        "bootstrap-css",
+        "bootstrap-js"
+      ],
+      "versions": {
+        "0.38.0": [
+          "handsontable.full.min.css",
+          "handsontable.full.min.js"
+        ],
+        "0.34.5": [
+          "handsontable.full.min.css",
+          "handsontable.full.min.js"
+        ]
+      },
+      "hash": "2e873b",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "0.38.0"
+    },
+    "jwt-decode": {
+      "category": "vendor",
+      "description": "Decode JWT tokens; useful for browser applications.",
+      "reference": "https://github.com/auth0/jwt-decode/",
+      "dependencies": [],
+      "versions": {
+        "2.2.0": [
+          "jwt-decode.min.js"
+        ]
+      },
+      "hash": "34310d",
+      "updatedAt": "2023-07-13T09:12:00+00:00",
+      "preloaded": false,
+      "latestVersion": "2.2.0"
+    },
+    "jssocials": {
+      "category": "vendor",
+      "minify": true,
+      "description": "A simple social network sharing jQuery plugin.",
+      "reference": "http://js-socials.com/",
+      "dependencies": [
+        "jquery",
+        "font-awesome"
+      ],
+      "versions": {
+        "1.4.0": [
+          "jssocials.bundle.js",
+          "jssocials.bundle.css"
+        ]
+      },
+      "hash": "f42291",
+      "updatedAt": "2023-07-13T09:09:02.700Z",
+      "preloaded": false,
+      "latestVersion": "1.4.0"
+    },
+    "rangeslider": {
+      "category": "vendor",
+      "minify": true,
+      "description": "HTML5 input range slider element",
+      "reference": "https://github.com/andreruffert/rangeslider.js",
+      "dependencies": [
+        "jquery"
+      ],
+      "versions": {
+        "2.3.2": [
+          "rangeslider.bundle.js",
+          "rangeslider.bundle.css"
+        ]
+      },
+      "hash": "3b922b",
+      "updatedAt": "2023-07-13T09:09:02.720Z",
+      "preloaded": false,
+      "latestVersion": "2.3.2"
+    }
+  }
+}
