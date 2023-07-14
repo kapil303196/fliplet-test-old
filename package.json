@@ -1,15 +1,18 @@
 {
-  "name": "upwork-test",
+  "name": "fliplet-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "q1": "node q1.js",
+    "q2": "node q2.js",
+    "q3": "node q3.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
+    "express-brute": "^1.0.1",
     "lodash": "^4.17.21",
     "node-fetch": "^3.3.1"
   }

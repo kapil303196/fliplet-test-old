@@ -1,11 +1,13 @@
-const axios = require('axios');
-const _ = require('lodash');
+const axios = require("axios");
+const _ = require("lodash");
 
 async function parse(inputArray) {
   let data;
 
   try {
-    const response = await axios.get('https://api.fliplet.com/v1/widgets/assets');
+    const response = await axios.get(
+      "https://api.fliplet.com/v1/widgets/assets"
+    );
     data = response.data;
   } catch (error) {
     console.error(`HTTP error! status: ${error}`);
@@ -22,27 +24,42 @@ async function parse(inputArray) {
 
     let packageData = data.assets[item];
     if (packageData) {
-      let packageAssets = _.get(packageData, ['versions', packageData.latestVersion], []);
-      
+      let packageAssets = _.get(
+        packageData,
+        ["versions", packageData.latestVersion],
+        []
+      );
+
       if (_.isEmpty(packageAssets)) {
         // If the package has no assets of its own, look into its dependencies
-        const dependencies = _.get(packageData, 'dependencies', []);
-        
+        const dependencies = _.get(packageData, "dependencies", []);
+
         // Reorder dependencies to prioritize ones not in the input array
-        const orderedDependencies = _.concat(_.difference(dependencies, inputArray), _.intersection(dependencies, inputArray));
-        
+        const orderedDependencies = _.concat(
+          _.difference(dependencies, inputArray),
+          _.intersection(dependencies, inputArray)
+        );
+
         const dependencyAssets = _.flatMap(orderedDependencies, (dep) => {
           if (processedPackages.has(dep)) {
             return [];
           }
           processedPackages.add(dep);
-          return _.get(data, ['assets', dep, 'versions', data.assets[dep].latestVersion], []);
+          return _.get(
+            data,
+            ["assets", dep, "versions", data.assets[dep].latestVersion],
+            []
+          );
         });
-        
+
         assets = _.concat(assets, dependencyAssets);
       } else {
         // If the package has assets, add them
         assets = _.concat(assets, packageAssets);
+      }
+
+      if (item === "moment" && packageAssets.includes("moment.min.js")) {
+        _.remove(assets, (asset) => asset === "moment-init.js");
       }
     }
     processedPackages.add(item);
@@ -51,6 +68,8 @@ async function parse(inputArray) {
   return assets;
 }
 
-parse(['bootstrap', 'fliplet-core', 'moment', 'jquery']).then((assets) => {
-  console.log('The list is', assets);
-}).catch(error => console.log(error));
+parse(["bootstrap", "fliplet-core", "moment", "jquery"])
+  .then((assets) => {
+    console.log("The list is", assets);
+  })
+  .catch((error) => console.log(error));
